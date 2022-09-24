@@ -1,0 +1,28 @@
+.active {
+  color      : blue;
+  font-weight: bolder;
+}
+
+header {
+  padding        : 10px;
+  width          : 100%;
+  background     : black;
+  height         : 48px;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 20px;
+}
+
+ul li a {
+  color          : #999;
+  text-decoration: none;
+  font-size      : 23px;
+}
