@@ -1,7 +1,5 @@
 # Star-wars-album
 
-## Table of contents
-
 ### Screenshot
 
 
