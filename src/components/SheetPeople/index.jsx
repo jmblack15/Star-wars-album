@@ -4,7 +4,7 @@ import { Card, CardContent, Typography, CardActionArea } from "@mui/material";
 const SheetPeople = (props) => {
   return (
     <Card>
-      <CardActionArea sx={() => console.log('click')}>
+      <CardActionArea>
         <CardContent>
           <Typography variant="body2" color="text.secondary">
             Nombre:{ }
@@ -12,7 +12,7 @@ const SheetPeople = (props) => {
           <Typography variant="body2" color="text.secondary">
             Genero: { }
           </Typography>
-          <Typography gutterBottom variant="body2" component="div">
+          <Typography variant="body2" color="text.secondary">
             Fecha de nacimiento: { }
           </Typography>
           <Typography gutterBottom variant="h5" component="div">

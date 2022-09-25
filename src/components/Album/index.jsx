@@ -1,5 +1,9 @@
 import { Container, Grid } from "@mui/material"
-import { Sheet } from '../Sheet';
+
+import { SheetPeople } from '../SheetPeople';
+// import { Sheet } from '../Sheet';
+// import { Sheet } from '../Sheet';
+
 
 const Album = () => {
 
@@ -12,11 +16,7 @@ const Album = () => {
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
           {Array.from(Array(6)).map((_, index) => (
             <Grid item xs={2} sm={4} md={4} key={index}>
-              <Sheet
-                titulo=''
-                episodio=''
-                fecha=''
-              />
+
             </Grid>
           ))}
         </Grid>
@@ -26,9 +26,7 @@ const Album = () => {
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
           {Array.from(Array(82)).map((_, index) => (
             <Grid item xs={2} sm={4} md={4} key={index}>
-              <Sheet
-
-              />
+              <SheetPeople/>
             </Grid>
           ))}
         </Grid>
@@ -38,7 +36,6 @@ const Album = () => {
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
           {Array.from(Array(36)).map((_, index) => (
             <Grid item xs={2} sm={4} md={4} key={index}>
-              <Sheet />
             </Grid>
           ))}
         </Grid>
