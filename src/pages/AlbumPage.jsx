@@ -1,7 +1,11 @@
+import { Album } from "../components/Album"
+
 const AlbumPage = () => {
-  return(
-    <h2>Album</h2>
+  return (
+    <main>
+      <Album />
+    </main>
   )
 }
 
-export {AlbumPage}
+export { AlbumPage }
